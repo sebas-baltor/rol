@@ -1,21 +1,25 @@
 * {
-    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Rowdies', cursive;
 }
 
 :root {
     --primary-color: rgb(0, 43, 117);
     --secondary-color: rgb(255, 177, 113);
 
-    --red: rgb(254, 0, 0);
-    --cyan: rgb(47, 127, 202);
-    --blue: rgb(24, 37, 221);
-    --yellow: rgb(255, 189, 5);
+    --red: rgb(201, 21, 21);
+    --cyan: rgb(53, 124, 190);
+    --blue: rgb(25, 35, 165);
+    --yellow: rgb(223, 171, 30);
     --white: rgb(254, 254, 254);
-    --purple: rgb(112, 48, 160);
+    --purple: rgb(107, 32, 165);
     --black: rgb(0, 0, 0);
     --gray: rgb(96, 96, 98);
-    --orange: rgb(250, 111, 47);
+    --orange: rgb(226, 89, 26);
+    --green: rgb(74, 179, 91);
 
+}
+.bg-green {
+    background-color: var(--green);
 }
 .bg-red {
     background-color: var(--red);
@@ -86,9 +90,15 @@ header>img {
 }
 
 .header__title {
-    font-family: 'Sriracha', cursive;
+    /* font-family: 'Sriracha', cursive; */
     font-size: 2.5rem;
     text-align: center;
+}
+.title{
+    width: 100%;
+    color: var(--white);
+    text-align: center;
+    font-size: 3rem;
 }
 
 .content {
@@ -102,7 +112,7 @@ header>img {
 }
 
 .content__title {
-    font-family: 'Sriracha', cursive;
+    /* font-family: 'Sriracha', cursive; */
     font-size: 2.5rem;
     color: white;
     text-align: center;
@@ -161,7 +171,7 @@ header>img {
 
 
 .rol__item-date>span {
-    font-family: 'Edu TAS Beginner', cursive;
+    /* font-family: 'Edu TAS Beginner', cursive; */
     padding: 0 20px;
     clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
 }
@@ -189,7 +199,7 @@ header>img {
     clip-path: polygon(0 0, 100% 0%, 90% 100%, 0 100%);
     width: 100%;
     height: 100%;
-    font-family: 'Edu TAS Beginner', cursive;
+    /* font-family: 'Edu TAS Beginner', cursive; */
     font-weight: bold;
     font-size: 2rem;
 }
@@ -205,7 +215,7 @@ header>img {
     clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
     width: 100%;
     height: 100%;
-    font-family: 'Edu TAS Beginner', cursive;
+    /* font-family: 'Edu TAS Beginner', cursive; */
     font-weight: bold;
     font-size: 2rem;
 }
@@ -219,7 +229,7 @@ header>img {
 
 .rol__item-vs {
     /* background-color:var(--white); */
-    font-family: 'Edu TAS Beginner', cursive;
+    /* font-family: 'Edu TAS Beginner', cursive; */
     font-weight: bold;
     font-size: 2.5rem;
     transform: skew(40px);
