@@ -112,15 +112,12 @@ header>img {
 }
 
 .content__title {
-    /* font-family: 'Sriracha', cursive; */
     font-size: 2.5rem;
     color: white;
     text-align: center;
-    /* position: absolute; */
-    /* top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 5; */
+}
+.content__title > span {
+ font-size: 1.5rem;
 }
 
 /* .content__background {
