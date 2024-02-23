@@ -16,7 +16,11 @@
     --gray: rgb(96, 96, 98);
     --orange: rgb(226, 89, 26);
     --green: rgb(74, 179, 91);
+    --melon: rgb(255, 233, 184);
 
+}
+.bg-melon {
+    background-color: var(--melon);
 }
 .bg-green {
     background-color: var(--green);
